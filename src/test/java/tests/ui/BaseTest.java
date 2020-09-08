@@ -1,4 +1,3 @@
-package tests.ui;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.junit.ScreenShooter;
@@ -9,7 +8,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import static com.codeborne.selenide.Selenide.clearBrowserCookies;
 import static com.codeborne.selenide.WebDriverRunner.clearBrowserCache;
-import static tests.ui.MyExecutionListener.failedTests;
 
 public class BaseTest {
     //Logger log = Logger.getLogger(BaseTest.class.getName());

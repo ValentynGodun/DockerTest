@@ -1,4 +1,3 @@
-package tests.ui;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +12,6 @@ import java.util.stream.Stream;
 import static com.codeborne.selenide.Selenide.open;
 import static pages.BasePage.BASE_URL;
 
-@RunWith(MyTestRunner.class)
 public class LoginAndRegisterTest extends BaseTest {
 
     LoginAndRegisterPage loginAndRegisterPage = new LoginAndRegisterPage();
