@@ -22,9 +22,9 @@ public class LoginAndRegisterPage {
         return this;
     }
 
-    public ShippingCostCalculator clickLoginButtonInLoginForm() {
+    public LoginAndRegisterPage clickLoginButtonInLoginForm() {
         $(byAttribute("label*", "og")).click();
-        return new ShippingCostCalculator();
+        return new LoginAndRegisterPage();
     }
 
     public LoginAndRegisterPage selectRememberMeCheckboxInRegisterForm() {
@@ -32,9 +32,9 @@ public class LoginAndRegisterPage {
         return this;
     }
 
-    public ForgotPasswordPage clickForgotPasswordLink() {
+    public LoginAndRegisterPage clickForgotPasswordLink() {
 
-        return new ForgotPasswordPage();
+        return new LoginAndRegisterPage();
     }
 
 
@@ -59,9 +59,9 @@ public class LoginAndRegisterPage {
         return this;
     }
 
-    public ShippingCostCalculator clickRegisterForFreeInRegisterPage() {
+    public LoginAndRegisterPage clickRegisterForFreeInRegisterPage() {
         $(byAttribute("data-selector", "registerSubmit")).click();
-        return new ShippingCostCalculator();
+        return new LoginAndRegisterPage();
     }
 
     public LoginAndRegisterPage clickTermsAndConditionsInRegisterPage() {
